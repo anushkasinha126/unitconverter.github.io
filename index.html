@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-sca=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Unit Converter</title>
+        <link rel="shortcut icon" type="image" href="calculator.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="heading">Unit Converter</h2>
+            <div class="rate">
+                <div class="rate1"></div>
+                <div class="rate2"></div>
+            </div>
+            <div class="main">
+                <div class="options">
+                    <select id="inputType">
+                        <option value="length">Meter -> Kilometer</option>
+                        <option value="area">Meter Square -> Hectare</option>
+                        <option value="weight">Gram -> Pound</option>
+                        <option value="temp">Celsius -> Fahrenheit</option>
+                        <option value="power">Watt -> Horsepower</option>
+                    </select>
+                </div>
+                <div class="target">
+                    <div class="input"><input type="Number" id="input">Input</div>
+                    <span class="swap">=</span>
+                    <div class="input"><input disabled type="Number" id="result">Result</div>
+                </div>
+            </div>
+            <!-- <button class="result">Result</button> -->
+        </div>
+        <script src="sketch.js"> </script>
+        <footer>
+            <p> © 2023 Copyright, <strong>Anushka Sinha</strong></p>
+        </footer>
+    </body>
+</html>

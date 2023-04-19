@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(173, 27, 11) 20%, rgb(14, 65, 100)60%);
+    overflow: hidden;
+    top: 0%;
+    bottom: 0%;
+    margin: 0%;
+}
+.container{
+    background-color: white;
+    width: 470px;
+    height: 360px;
+    padding:50px;
+    box-shadow: 0px 0px 50px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(97, 7, 70);
+}
+
+.rate{
+    margin-top: -1.5rem;
+}
+.rate1{
+    color: grey;
+}
+.rate2{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+.main{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+
+.swap{
+    align-self:flex-end;
+    padding:6px;
+    font-size: x-large;
+    
+}
+
+.options select{
+    margin-top: 3rem;
+    padding:2%;
+    width: 50vh;
+    height: 50px;
+    background-color: rgb(218, 102, 60);
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input input{
+    all: unset;
+    display:block;
+    margin-top: 4rem;
+    width: 170px;
+    height: 48px;
+    padding: 5px;
+    background-color: rgb(181, 215, 245);
+    color: rgb(58, 56, 56);
+    font-size: 1.5rem;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    appearance: textfield;
+
+}
+
+.target{
+    /* transform: translate(-%); */
+    display: flex;
+    height: 80px;
+    width: 200px;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(33, 57, 92);
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+/* .result{
+    margin-top: 3rem;
+    width:170;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.result:active{
+    background-color: rgb(49, 11, 85);
+}
+
+button{
+    width: 170px;
+    margin-left: 100px;
+} */
